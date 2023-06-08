@@ -1,5 +1,6 @@
 class Conta:
     def __init__(self, numero, titular, cpf, saldo, limite):
+        
         self.numero : int = numero
         self.titular : str = titular
         self.cpf : str = cpf
