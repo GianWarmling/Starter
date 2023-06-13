@@ -1,3 +1,4 @@
+#DTO - DATA TRANFERS OBJECT
 from pessoa import Pessoa
 from funcionario import Funcionario
 from cliente import Cliente
