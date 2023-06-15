@@ -47,7 +47,7 @@ def menu():
 
         print(v,"Extrato transferencia", v)
 
-        conta1.transferir(float(input("Digite o valor da transferencia >> ")), conta,  conta1)
+        conta1.transferir(float(input("Digite o valor da transferencia >> ")), conta, conta1)
         print(v,"Extrato transeferencia conta 2", v)
         conta1.extrato()
 
