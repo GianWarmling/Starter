@@ -7,6 +7,7 @@ class Conta:
 
     def set_titular(self, titular):
         self.__titular = titular
+
     def get_titular(self):
         return self.__titular
     
@@ -15,11 +16,13 @@ class Conta:
     
     def set_saldo(self, saldo):
         self.__saldo = saldo
+
     def get_saldo(self):
         return self.__saldo
     
     def set_limite(self, limite):
         self.__limite = limite
+
     def get_limite(self):
         return self.__limite
     
